@@ -4,7 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#333',
+        cta: '#DE49F7',
+        link: '#9BC5F8',
+        background: '#242424',
+        'background-light': '#2A2A2A',
+        reading: '#EEEEEE',
+        primary: '#7D3AF5',
+        secondary: '#EC4476',
+        accent: '#FAD34C',
+        'secondary-accent': '#F4923F',
       },
     },
   },

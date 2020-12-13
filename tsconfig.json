@@ -1,9 +1,7 @@
 {
   "include": [
-    "components/**.ts**",
-    "pages/**.ts**"
+    "/**.ts**",
   ],
-  "strict": true,
   "compilerOptions": {
     "jsx": "preserve",
     "target": "es5",
@@ -20,7 +18,8 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "strict": true
   },
   "exclude": [
     "node_modules"
