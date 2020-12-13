@@ -1,10 +1,8 @@
-import { DefaultTheme } from "styled-components";
-
 const colors = {
   cta: "#DE49F7",
   link: "#9BC5F8",
   background: "#242424",
-  backgroundLight: "#2A2A2A",
+  backgroundLight: "#272727",
   reading: "#EEEEEE",
   primary: "#7D3AF5",
   secondary: "#EC4476",
