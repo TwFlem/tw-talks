@@ -1,9 +1,14 @@
 import * as React from "react";
-import Nav from '../components/navigation/nav'
-import {Home} from "./Home";
+import { ThemeProvider } from "styled-components";
+import { theme } from "../styles/theme";
+import { GlobalStyle } from "../styles/global";
+import { Home } from "./Home";
 
 export default function IndexPage() {
   return (
-    <Home />
-  )
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Home />
+    </ThemeProvider>
+  );
 }

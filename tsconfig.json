@@ -1,7 +1,4 @@
 {
-  "include": [
-    "/**.ts**",
-  ],
   "compilerOptions": {
     "jsx": "preserve",
     "target": "es5",
@@ -19,7 +16,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "strict": true
+    "strict": true,
+    "baseUrl": "./"
   },
   "exclude": [
     "node_modules"
