@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-export function HeadShotCard() {
+export function HeadShotCard(): JSX.Element {
   return (
     <div>
       <Image

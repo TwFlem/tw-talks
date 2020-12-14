@@ -1,8 +1,8 @@
 import React from "react";
-import Nav from "../navigation/nav";
+import { Nav } from "../navigation/nav";
 
 type PageProps = { children: React.ReactNode };
-export function Page(props: PageProps) {
+export function Page(props: PageProps): JSX.Element {
   return (
     <div>
       <Nav />
